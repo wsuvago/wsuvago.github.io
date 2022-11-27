@@ -7,7 +7,7 @@ Install Git:
 
 Install Go:
 
-Get the link from https://go.dev/doc/install
+Get the link from [https://go.dev/doc/install](https://go.dev/doc/install)
 
 ```bash
 rm -rf /usr/local/go
@@ -19,3 +19,7 @@ export PATH=$PATH:/usr/local/go/bin
 
 EOF
 ```
+
+# Set up C++ on Ubuntu
+
+    sudo apt install build-essential
