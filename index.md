@@ -23,3 +23,12 @@ EOF
 # Set up C++ on Ubuntu
 
     sudo apt install build-essential
+
+# Set up rsynch on Ubuntu
+
+    sudo apt install rsync
+
+Archive (maintain timestamp), update only if diff (meaning different modification time or size), delete dir on destination if sourc no longer has it:
+
+    rsync --archive --update --delete --verbose ~/GolandProjects/ /media/wsuvago/USB/GolandProjects
+
