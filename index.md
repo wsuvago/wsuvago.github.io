@@ -32,7 +32,7 @@ Archive (maintain timestamp), update only if diff (meaning different modificatio
 
     rsync --archive --update --delete --itemize-changes --stats ~/GolandProjects/ /media/wsuvago/USB/GolandProjects
 
-# Install Chinese Input
+# Install Chinese Input on Ubuntu
 
     sudo apt install fcitx-googlepinyin
 
