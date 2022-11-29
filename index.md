@@ -32,3 +32,18 @@ Archive (maintain timestamp), update only if diff (meaning different modificatio
 
     rsync --archive --update --delete --itemize-changes --stats ~/GolandProjects/ /media/wsuvago/USB/GolandProjects
 
+# Install Chinese Input
+
+    sudo apt install fcitx-googlepinyin
+
+1. Reboot
+1. Click All Application
+1. Launch `Language Support`.
+1. In `Keyboard input method system`, select `Fcitx 4`. ![Language Support](images/add-google-pinyin/1.png)
+1. Launch `Fcitx Configuration`.
+1. Click `+`.
+1. Check off `Only Show Current Language`
+1. Select `Google Pinyin`, and select `OK`. ![Fcitx Configuration](images/add-google-pinyin/2.png)
+1. Reboot if needed.
+
+To switch between keyboards press `Ctrl+Space`
