@@ -31,6 +31,8 @@ EOF
 Archive (maintain timestamp), update only if diff (meaning different modification time or size), delete dir on destination if sourc no longer has it:
 
     rsync --archive --update --delete --itemize-changes --stats ~/GolandProjects/ /media/wsuvago/USB/GolandProjects
+    
+    rsync --archive --update --delete --itemize-changes --stats ~/Backup/ /media/$USER/VOLUME/Backup
 
 # Install Chinese Input on Ubuntu
 
