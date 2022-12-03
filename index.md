@@ -34,6 +34,20 @@ Archive (maintain timestamp), update only if diff (meaning different modificatio
     
     rsync --archive --update --delete --itemize-changes --stats ~/Backup/ /media/$USER/VOLUME/Backup
 
+# Update snapshot
+
+To fully close it, just open it, do click in the “Ubuntu Software” text in the 
+left part of the top bar, and choose `Quit`. It will fully close the Snap Store
+and you will be able to update it using.
+
+    snap refresh
+
+If the above won't work, use this to kill snap-store and then run the refresh command.
+
+    killall snap-store
+
+
+
 # Install Chinese Input on Ubuntu
 
     sudo apt install fcitx-googlepinyin
